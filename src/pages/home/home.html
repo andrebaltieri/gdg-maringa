@@ -1,0 +1,27 @@
+<ion-content>
+  <button ion-button menuToggle clear icon-only style="position: absolute; top: 5px; left: 5px">
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+  <p text-center>
+    <img src="assets/imgs/logo.png" width="128" alt="GDG Paraná">
+  </p>
+
+  <ion-card>
+    <img src="http://lorempixel.com/200/250/sports/" />
+    <ion-card-content>
+      <ion-card-title>
+        Nine Inch Nails Live
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-fab right bottom>
+    <button ion-fab color="danger" (click)="showPictureModal()">
+      <ion-icon name="camera"></ion-icon>
+    </button>
+  </ion-fab>
+</ion-content>
